@@ -17,7 +17,7 @@ footer {
     position: fixed;
     width: 100%;
 }
-main {
+.main {
     background-color: #808380;
     color: rgb(0, 0, 0);
     flex: 1 1 100px;
@@ -30,7 +30,7 @@ main {
     padding: 10px;
     text-align: center;
 }
-.main{
+main{
     display: flex;
     justify-content: center;
     flex: 1;
