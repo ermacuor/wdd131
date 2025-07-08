@@ -1,26 +1,30 @@
-
 body {
     font-family: Arial, sans-serif;
     background-color: #fafafa;
-    color: #333;    
+    color: #333;
 }
+
 header {
-    background-color: #383a38;
+    background-color: #0f33ffc4;
     color: white;
     padding: 10px 0;
-}   
-footer {
     text-align: center;
+}
+
+footer {
     background-color: #333;
     color: white;
     padding: 10px 0;
     position: fixed;
     width: 100%;
 }
-main {
+
+.main {
     background-color: #808380;
     color: rgb(0, 0, 0);
     flex: 1 1 100px;
+    border: 1px solid #000000;
+    margin: 20px;
 }
 
 .right {
@@ -29,28 +33,41 @@ main {
     color: rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
+    border: 1px solid #000000;
+    margin: 20px;
 }
-.main{
+
+main {
     display: flex;
     justify-content: center;
     flex: 1;
     height: 300px;
 
 }
-.navbar {
 
+.navbar {
+    position: relative;
     display: flex;
-    background-color: #000000;
-    padding: 10px 0;
+    background-color: #4d4d4d;
     justify-content: space-around;
+    bottom: -10px;
 }
-a{  
+a {
     color: white;
     text-decoration: none;
     padding: 10px;
 }
-.footer nav{
+.footernav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 10px 0;
+}
+.course-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: orange;
+}
+.author-name {
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
 }
