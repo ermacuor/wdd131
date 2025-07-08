@@ -18,7 +18,9 @@ footer {
 }
 
 .main {
+    display: grid;
 
+        grid-template-columns: auto 1fr;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     flex: 1 1 100px;
@@ -80,10 +82,15 @@ a {
     text-align: center;
     margin: 20px 0;
 }
-main img {
+.main img {
     border-radius: 10px;
     margin: 20px;
-    float: right;
+    float: left;
+}
+.lefts img {
+    border-radius: 10px;
+    margin: 20px;
+    float: left;
 }
 .left{
     position: relative;
