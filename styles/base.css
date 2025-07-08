@@ -14,13 +14,12 @@ header {
 footer {
     background-color: #333;
     color: white;
-    padding: 10px 0;
-    position: fixed;
     width: 100%;
 }
 
 .main {
-    background-color: #808380;
+
+    background-color: #ffffff;
     color: rgb(0, 0, 0);
     flex: 1 1 100px;
     border: 1px solid #000000;
@@ -31,7 +30,6 @@ footer {
     width: 20%;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    padding: 10px;
     text-align: center;
     border: 1px solid #000000;
     margin: 20px;
@@ -41,7 +39,7 @@ main {
     display: flex;
     justify-content: center;
     flex: 1;
-    height: 300px;
+
 
 }
 
@@ -60,7 +58,6 @@ a {
 .footernav {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
 }
 .course-title {
     font-size: 2em;
@@ -70,4 +67,31 @@ a {
 .author-name {
     font-size: 1.5em;
     color: rgb(0, 0, 0);
+}
+.subtitle {
+    display: grid;
+    grid-column: 1 / -1;
+    font-size: 1.78em;
+    padding: 8px;
+    position: relative;
+    top: -23px;
+    color: white;
+    background: rgb(48, 48, 165);
+    text-align: center;
+    margin: 20px 0;
+}
+main img {
+    border-radius: 10px;
+    margin: 20px;
+    float: right;
+}
+.left{
+    position: relative;
+    top: -50px;
+    display: grid;
+        grid-template-rows: auto 1fr;
+        grid-template-columns: auto 1fr;
+}
+.city{
+    text-align: center;
 }
