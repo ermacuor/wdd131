@@ -39,6 +39,8 @@ footer {
 }
 
 main {
+    max-width: 1600px;
+    margin:: 0 auto;
     display: flex;
     justify-content: center;
     flex: 1;
@@ -66,7 +68,7 @@ a {
     justify-content: center;
 }
 
-.course-title {
+#course-title {
     font-size: 2em;
     font-weight: bold;
     color: orange;
@@ -126,4 +128,8 @@ a {
 }
 .right a{
     color: #000000;
+}
+.navbar a:hover {
+    border-left: white 2px solid;
+    border-right: white 2px solid;
 }
