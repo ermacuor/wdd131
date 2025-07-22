@@ -1,0 +1,42 @@
+header{
+    background: purple;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    display: grid;
+}
+main{
+    margin: 0 auto;
+    text-align: center;
+}
+main img{
+    width: 400px;
+    height: 300px;
+}
+footer{
+    background: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#main-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+button{
+    background-color: purple;
+    border: 1px solid purple;
+}
