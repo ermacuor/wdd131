@@ -28,7 +28,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    main h1 {
+    main h2 {
         display: grid;
         grid-column: 1 / -1;
     }
