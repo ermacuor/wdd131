@@ -1,0 +1,41 @@
+@media screen and  (min-width: 600px) {
+    header{
+        background: purple;
+        color: white;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #menu-button {
+        display: none;
+    }
+    .main-nav a{
+        display: block;
+        padding: 8px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    .main-nav {
+        display: block;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+}
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main h1 {
+        display: grid;
+        grid-column: 1 / -1;
+    }
+}   
+@media screen and (min-width: 900px) {
+    main {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+}   

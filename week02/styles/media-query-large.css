@@ -3,6 +3,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
     header{
         background:rgb(0, 0, 0);
         color: white;
