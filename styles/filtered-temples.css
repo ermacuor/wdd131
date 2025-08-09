@@ -1,0 +1,105 @@
+header{
+    background: purple;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr  auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-gap: 25px;
+    place-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    display: grid;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+section img{
+    width: 100%;
+    height: 80%;
+}
+footer{
+    background: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    background-color: #b958bd;
+    grid-gap: 20px;
+    margin: 20px auto;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    background-color: purple;
+    color: #fff;
+}
+
+.main-nav a { 
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.main-nav a:hover {
+    background-color: #b958bd;
+    color: #333;
+    font-weight: 700;
+}
+.open a {
+    display: block;
+}
+
+.active::before {
+    content: "📍";
+}
+
+.stuff {
+    margin: 0.5rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    background-color: #bed;
+    max-width: 580px;
+    height: 100vh;
+}
+
+#menu-button {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    align-self: flex-end;
+    align-self: center;
+}
+
+#menu-button::before {
+    content: "☰";
+}
+#menu-button.open::before {
+    content: "❌";
+}
+footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
