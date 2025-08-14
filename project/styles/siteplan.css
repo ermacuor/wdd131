@@ -79,4 +79,7 @@ body{
 li{
     place-self: center;
 }
-}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}}
