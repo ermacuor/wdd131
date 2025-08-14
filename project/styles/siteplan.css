@@ -54,6 +54,14 @@ ul{
 }
 
 @media screen and (max-width: 1050px) {
+    header img {
+            place-self: end;
+            width: 130px;
+            height: auto;
+        }
+    h1{
+        font-size: large;
+    }
 .wireframe {
         display: grid;
         grid-template-columns: 1fr;
