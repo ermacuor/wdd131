@@ -32,6 +32,27 @@
     </header>
     <main>
         <h2>Anticafe Quetzal</h2>
+        <img src="images/Quetzal.webp" alt="Quetzal">
+        <form action="/reservar" class="data" method="POST">
+            <h2>Reserva tu lugar</h2>
+        
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+        
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="apellido" name="apellido" required><br><br>
+        
+            <label for="celular">Número de celular:</label><br>
+            <input type="tel" id="celular" name="celular" pattern="[0-9]{8,15}" required><br><br>
+        
+            <label for="fecha">Día de la reserva:</label><br>
+            <input type="date" id="fecha" name="fecha" required><br><br>
+        
+            <label for="hora">Horario:</label><br>
+            <input type="time" id="hora" name="hora" required><br><br>
+        
+            <button type="submit">Reservar</button>
+        </form>
 
     </main>
     <footer>
