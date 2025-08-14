@@ -27,7 +27,7 @@ footer{
     color: rgb(212, 173, 0);
     text-align: center;
 }
-picture{
+figure{
     display: grid;
     grid-template-rows: 1fr auto;
     place-items: center;
@@ -51,4 +51,24 @@ ul{
 
 .info{
     text-align: start;
+}
+
+@media screen and (max-width: 1050px) {
+.wireframe {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+.wireframe img{
+        width: 80%;
+        height:670px;
+} 
+body{
+    text-align: center;
+}  
+.info{
+    text-align: center;
+}
+li{
+    place-self: center;
+}
 }
