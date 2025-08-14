@@ -85,7 +85,7 @@ const temples = [
     },
     {
         templeName: "san Diego California",
-        location: "San Diego, California, United States",
+        location: "San Diego, California, United States ",
         dedicated: "1993w, April, 25-30",
         area: 72000,
         imageUrl:
